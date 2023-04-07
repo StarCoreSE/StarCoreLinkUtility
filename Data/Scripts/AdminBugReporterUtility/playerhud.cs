@@ -30,9 +30,9 @@ namespace playerHUD
         {
             if (!shown && !waiting)
             {
-                MyVisualScriptLogicProvider.SetQuestlog(true, "test");
-                MyVisualScriptLogicProvider.AddQuestlogObjective("test1", false, true);
-                MyVisualScriptLogicProvider.AddQuestlogObjective("test2", false, true);
+                MyVisualScriptLogicProvider.SetQuestlog(true, "Keybinds");
+                MyVisualScriptLogicProvider.AddQuestlogObjective("ALT+P = Starcore Pointsheet", false, true);
+                MyVisualScriptLogicProvider.AddQuestlogObjective("SHIFT+F2 = Report Bug", false, true);
                 waiting = true;
                 startTime = DateTime.Now;
             }
