@@ -44,7 +44,7 @@ namespace invalid.BugReporter
 
             MyAPIGateway.Utilities.ShowMessage("GODFORSAKEN ASTRONAUT", "Press Shift + F2 to report a bug. You get a gold star for uploading your log. Also Alt + P to bring up the points menu." );
 			
-            MyAPIGateway.Utilities.ShowNotification("\n\n ALT+P = Starcore Pointsheet \n SHIFT+F2 = Report Bug", 30000, "Red"); //this is fucking stupid.
+           // MyAPIGateway.Utilities.ShowNotification("\n\n ALT+P = Starcore Pointsheet \n SHIFT+F2 = Report Bug", 30000, "Red"); //this is fucking stupid.
 			
 		}      
 
