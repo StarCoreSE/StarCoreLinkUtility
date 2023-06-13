@@ -33,7 +33,7 @@ namespace playerHUD
                 MyVisualScriptLogicProvider.SetQuestlog(true, "Keybinds");
                 MyVisualScriptLogicProvider.AddQuestlogObjective("ALT+P = Starcore Pointsheet", false, true);
                 MyVisualScriptLogicProvider.AddQuestlogObjective("SHIFT+F2 = Report Bug", false, true);
-                MyVisualScriptLogicProvider.AddQuestlogObjective("Read the chat. There is some useful command info there.", false, true);
+                MyVisualScriptLogicProvider.AddQuestlogObjective("/harmdist NUMBER to change thevisibility distance of it.", false, true);
                 waiting = true;
                 startTime = DateTime.Now;
             }
